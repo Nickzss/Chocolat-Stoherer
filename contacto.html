@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+<div id="header">
+<ul class="nav" >
+<li class="inicio"><a href="index.html">Inicio</a></li>
+<li><a href="declaraciones.html">Declaraciones</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+
+    <div class="contenedor">
+        <h2>Contáctame</h2>
+        <form action="https://formspree.io/f/xanywdwa" method="post">
+            <div class="a">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="a">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="a">
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="a">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2950786741355!2d-90.5071819309466!3d14.588798969340184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c03c2fe90f%3A0x9b977021a60d80ca!2sSupermercado%20La%20Puerta%20del%20Sol%20%232%20ZONA%2010!5e0!3m2!1ses!2sgt!4v1728249025151!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>

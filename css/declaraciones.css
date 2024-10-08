@@ -1,0 +1,51 @@
+body {
+    background-color: #FFC0CB;
+    font-size: 20px;
+    font-family: cambria;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75vh; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.arriba {
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.abajo {
+    text-align: center;
+    color: #000;
+}
+
+* {
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+ul, ol {
+list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav &gt; li {
+float:left;
+}
+
+.nav li a {
+background-color: #D192B3;
+color:#fff;
+
+padding:10px 12px;
+display:block;
+}
